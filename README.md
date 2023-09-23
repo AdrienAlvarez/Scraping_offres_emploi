@@ -9,6 +9,7 @@ Ce repository contient un notebook pour scraper des offres d'emploi à partir du
 Pour exécuter le notebook, vous devez installer les dépendances suivantes :
 ```bash
 pip install selenium pandas nltk joblib
+```
 
 ## Fonctionnement
 Le script utilise Selenium pour naviguer sur le site et extraire les détails des offres d'emploi. Après le scraping, le script nettoie et traite les données, puis les enregistre dans un fichier Excel pour une analyse ultérieure.
